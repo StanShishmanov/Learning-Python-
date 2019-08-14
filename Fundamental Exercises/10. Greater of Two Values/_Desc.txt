@@ -1,0 +1,1 @@
+You are given two values of the same type as input. The values can be of type int, char of string. Create a function that returns the greater of the two values

@@ -1,0 +1,12 @@
+Create a function that calculates and returns the value of a number raised to a given power:
+Examples
+Input: 
+2
+8
+Output:
+256.0
+Input: 
+1.5
+3
+Output:
+3.375

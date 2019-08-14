@@ -1,0 +1,9 @@
+Draw at the console a filled square of size n like in the example:
+Examples
+Input:
+4 
+Output:
+--------
+-\/\/\/-
+-\/\/\/-
+--------
