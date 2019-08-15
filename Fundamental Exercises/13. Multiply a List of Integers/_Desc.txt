@@ -1,0 +1,1 @@
+Write a program to read a list of integers, an integer p, multiply each item by p and print the resulting list.

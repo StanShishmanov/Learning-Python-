@@ -1,0 +1,1 @@
+Write a program to read a list of strings, rotate it to the right and print its rotated items.
