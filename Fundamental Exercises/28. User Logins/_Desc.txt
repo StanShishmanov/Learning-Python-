@@ -1,0 +1,27 @@
+Write a program that receives a list of username-password pairs in the format “{username} -> {password}”. 
+If there’s already a user with that username, replace their password. 
+After you receive the command “login”, login requests start coming in, using the same format. 
+Your task is to print the status of user login, using different messages as per the conditions below:
+ - If the password matches with the user’s password, print “{username}: logged in successfully”.
+ - If the user doesn’t exist, or the password doesn’t match the user, print “{username}: login failed”.
+When you receive the command “end”, print the count of unsuccessful login attempts, using the format “unsuccessful login attempts: {count}”.
+
+Input					Output
+
+walter_white58 -> iamthedanger		krazy_8: logged in successfully
+krazy_8 -> ese				krazy_8: logged in successfully
+jesseABQ -> bword			jesse: login failed
+login					jesseabq: login failed
+krazy_8 -> ese				walter_white58: login failed
+krazy_8 -> ese				walter_white58: logged in successfully
+jesse -> bword				unsuccessful login attempts: 3
+jesseabq -> bword
+walter_white58 -> IAmTheDanger
+walter_white58 -> iamthedanger
+
+
+
+
+
+
+

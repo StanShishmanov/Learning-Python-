@@ -1,0 +1,33 @@
+You just bought a new wardrobe. The weird thing about it is that it came prepackaged with a big box of clothes (just like those refrigerators, which ship with free beer inside them)! So, you’ll need to find something to wear.
+
+Input
+On the first line of the input, you will receive n – the number of lines of clothes, which came prepackaged for the wardrobe.
+On the next n lines, you will receive the clothes for each color in the format:
+ - “{color} -> {item1},{item2},{item3}…”
+If a color is added a second time, add all items from it and count the duplicates.
+Finally, you will receive the color and item of the clothing, that you need to look for.
+
+Output
+Go through all the colors of the clothes and print them in the following format:
+{color} clothes:
+* {item1} - {count}
+* {item2} - {count}
+* {item3} - {count}
+…
+* {itemN} - {count}
+If the color lines up with the clothing item, print “(found!)” alongside the item.
+
+Input 					Output
+
+4					Blue clothes:
+Blue -> dress,jeans,hat			* dress - 1 (found!)
+Gold -> dress,t-shirt,boxers		* jeans - 1
+White -> briefs,tanktop			* hat - 1
+Blue -> gloves				* gloves - 1
+Blue dress				Gold clothes:
+					* dress - 1
+					* t-shirt - 1
+					* boxers - 1
+					White clothes:
+					* briefs - 1
+					* tanktop - 1

@@ -1,0 +1,19 @@
+A supermarket has products which have quantities. Your task is to stock the shop before Exam Sunday. 
+Until you receive the command “shopping time”, add the various products to the shop’s inventory, keeping track of their quantity (for inventory purposes). When you receive the aforementioned command, the students start pouring in before the exam and buy various products.
+The format for stocking a product is: “stock {product} {quantity}”.
+The format for buying a product is: “buy {product} {quantity}”.
+If a student tries to buy a product, which doesn’t exist, print “{product} doesn&#39;t exist”. If it does exist, but it’s out of stock, print “{product} out of stock”. If a student tries buying more than the quantity of that product, sell them all the quantity of the product (the product is left out of stock, don’t print anything).
+
+When you receive the command “exam time”, your task is to print the remaining inventory in the following format: “{product} -> {quantity}”. 
+If a product is out of stock, do not print it.
+
+Input Output			Output
+
+stock Boca_Cola 10		Boca_Cola -> 15
+stock Boca_Cola 10
+stock Kay's 3
+stock Kay's 2
+shopping time
+buy Boca_Cola 5
+buy Kay's 5
+exam time
