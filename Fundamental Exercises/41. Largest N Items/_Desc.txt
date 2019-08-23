@@ -1,0 +1,4 @@
+Read a list of integers on the first line of the console. On the next line, you will receive an integer N. After that, find and print the largest N items the list, sorted in descending order.
+
+Input 			Output
+11 52 43 12 1 6 4	52 43 12 11

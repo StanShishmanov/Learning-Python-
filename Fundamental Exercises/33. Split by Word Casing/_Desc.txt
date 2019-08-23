@@ -1,0 +1,14 @@
+Read a text, split it into words and distribute them into 3 lists.
+ - Lower-case words like “programming”, “at” and “databases” – consist of lowercase letters only.
+ - Upper-case words like “PHP”, “JS” and “SQL” – consist of uppercase letters only.
+ - Mixed-case words like “C#”, “SoftUni” and “Java” – all others.
+Use the following separators between the words: , ; : . ! ( ) ' " \ / [ ] space
+Print the 3 lists as shown in the example below.
+
+Input:
+Learn programming at SoftUni: Java, PHP, JS, HTML 5, CSS, Web, C#, SQL, databases, AJAX, etc.
+
+Output:
+Lower-case: programming, at, databases, etc
+Mixed-case: Learn, SoftUni, Java, 5, Web, C#
+Upper-case: PHP, JS, HTML, CSS, SQL, AJAX
