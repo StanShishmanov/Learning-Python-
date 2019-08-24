@@ -1,0 +1,38 @@
+You have been tasked to create a Console Social Media Database.
+You will receive several input lines in one of the following formats:
+ - post {postName}
+ - like {postName}
+ - dislike {postName}
+ - comment {postName} {commenterName} {content}
+If you receive the post command, you must create a post with the given name.
+If you receive the like command you must add a like to the given post.
+If you receive the dislike command you must add a dislike to the given post.
+If you receive the comment command, you must add a comment to the given post. The comment’s writer must be the given commentator name, and the content of the comment must be the given content.
+By default, the posts have 0 likes, 0 dislikes and 0 comments when created.
+When you receive the command “drop the media”, you must end the input sequence, and you must print every post with its likes, dislikes and comments in the following format:
+
+Post: {postName} | Likes: {likes} | Dislikes {dislikes}
+Comments:
+* {commentator1}: {comment1}
+* {commentator2}: {comment2}
+. . .
+If a certain post does not have any comments, you should just print “None”.
+The comments have a prefix of a single asterisk (‘*’) and 2 spaces.
+There is NO space between the commentator’s name and the colon.
+Constraints
+ - The post name will be a string of letters and digits.
+ - The commentator’s name will be a string of letters.
+ - The comment’s CONTENT, may contain ANY ASCII character.
+ - There will be NO invalid input data.
+
+Input 					Output
+
+post FirstPost 				Post: FirstPost | Likes: 2 | Dislikes: 1
+like FirstPost				Comments:
+like FirstPost				* Isacc: Cool
+dislike FirstPost			Post: SecondPost | Likes: 1 | Dislikes: 0
+post SecondPost				Comments:
+comment FirstPost Isacc Cool		* Isacc: Lol
+comment SecondPost Isacc Lol
+like SecondPost
+drop the media

@@ -1,0 +1,20 @@
+You have been tasked to store a few forum topics, and filter them by several given tags.
+You will be given several input lines, containing data about topics in the following format:
+{topic} -> {tag1, tag2, tag3...}
+The topic and tags will be strings. They will NOT contain spaces or ‘-’, ‘>’ symbols.
+If you receive an existing topic, you must add the new tags to it. There should be NO duplicate tags.
+When you receive the command “filter”, you must end the input sequence. On the next line (after “filter”), you will receive a sequence of tags, separated by a comma and a space. 
+You must print ONLY those topics, which contain all tags in the given sequence.
+The topics must be printed in the following format:
+{topic} | {#tag1, #tag2, …, #tagN}
+NOTE: The tags have a number sign (‘#’) as a prefix.
+
+Input 							Output
+
+HelloWorld -> hello, forum, topic			HelloWorld | #hello, #forum, #topic
+HelpWithHomework -> homework, forum, topic		HelpWithHomework | #homework, #forum,
+filter							#topic
+forum, topic
+
+
+
