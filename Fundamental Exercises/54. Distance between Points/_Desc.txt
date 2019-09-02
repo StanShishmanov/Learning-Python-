@@ -1,0 +1,12 @@
+Write a method to calculate the distance between two points p 1 {x 1 , y 1 } and p 2 {x 2 , y 2 }. Write a program to read two points (given as two integers) and print the Euclidean distance between them.
+
+Examples
+Input 		Output
+3 4		5.000
+6 8
+
+3 4		2.000
+5 4
+
+8 -2		11.402
+-1 5

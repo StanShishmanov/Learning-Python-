@@ -1,0 +1,55 @@
+Create a class User, which has a Username (string), and ReceivedMessages (Collection of Messages).
+Create a class Message, which has a Content (string) and a Sender (User).
+You will have to store a messaging history for every user. The input consists of 2 commands:
+“register {username}”
+“{senderUsername} send {recipientUsername} {content}”
+
+The register command, registers a user with the given username.
+
+The send command, sends a message, from the given sender, to the given recipient, with the given content. That
+means that you must add the message to the recipient’s ReceivedMessages.
+If even one of the given names does NOT exist, ignore the command.
+When you receive the command “exit” you must end the input sequence. After that you will receive 2 usernames,
+separated by a space.
+You must print all messages, sent, between the two users, corresponding to the given usernames. The messages
+should be printed in a specified way. You should print first a message SENT from the first user, then a message
+SENT from the second user, then a message from the first user, and so on. If one of the collections of messages has
+more elements than the other, just print the remaining elements from it.
+The first user’s messages must be printed in the following way:
+“{firstUser}: {content}”
+The second user’s message must be printed in the following way:
+“{content} :{secondUser}”
+When you print the whole output, it should look like this:
+{firstUser}: {content1}
+{content1} :{secondUser}
+{firstUser}: {content2}
+{content2} :{secondUser}
+
+. . .
+In case there are NO messages between the two users, print “No messages”.
+Examples
+
+Input 						Output
+
+register Ivan					Ivan: pesho
+register Pesho					kaji_vanka :Pesho
+Ivan send Pesho pesho				Ivan: pesho_tam_li_si?
+Ivan send Pesho pesho_tam_li_si?		tuk_sum :Pesho
+Pesho send Ivan kaji_vanka			Ivan: kvo_stava
+Pesho send Ivan tuk_sum				chakai_che_bachkam :Pesho
+Pesho send Ivan chakai_che_bachkam		Ivan: kak_si
+Ivan send Pesho kvo_stava			Ivan: deka_izbega_be?
+Ivan send Pesho kak_si				Ivan: pecaaa!!!
+Ivan send Pesho deka_izbega_be?
+Ivan send Pesho pecaaa!!!
+exit
+Ivan Pesho
+
+
+
+
+
+
+
+
+

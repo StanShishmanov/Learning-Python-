@@ -1,0 +1,29 @@
+Exercises are fun … Especially when they represent a problem from your exercises.
+Implement a class Exercise, which has a topic (string), a course_name (string), a judge_contest_link (string), and
+problems (collection of strings).
+You will receive several input lines containing information about a single exercise in the following format:
+{topic} -> {course_name} -> {judge_contest_link} -> {problem1}, {problem2}. . .
+You need to store every exercise in a Collection of Exercises. When you receive the command “go go go”, you end
+the input sequence.
+You must print every exercise, in the following format:
+“Exercises: {topic}
+Problems for exercises and homework for the "{course_name}" course @ SoftUni.
+Check your solutions here: {judge_contest_link}
+1. {problem1}
+2. {problem2}
+. . .”
+
+Input 						Output
+
+ObjectsAndSimpleClasses ->			Exercises: ObjectsAndSimpleClasses
+ProgrammingFundamentalsExtended ->		Problems for exercises and homework for the
+https://judge.softuni.bg/Contests/439		"ProgrammingFundamentalsExtended" course @ SoftUni.
+-> Exercises, OptimizedBankingSystem,		Check your solutions here:
+Animals, Websites, Boxes,			https://judge.softuni.bg/Contests/439
+BoxIntersection, Messages			1. Exercises
+go go go					2. OptimizedBankingSystem
+						3. Animals
+						4. Websites
+						5. Boxes
+						6. BoxIntersection
+						7. Messages

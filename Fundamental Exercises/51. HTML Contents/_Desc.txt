@@ -1,0 +1,19 @@
+You have been tasked to create a program which represents a Console interface for creating HTML files.
+Every HTML file naturally holds the following elements:
+"<!DOCTYPE html>"
+<head>
+</head>
+<body>
+</body>
+</html>"
+You will need to add them at the end in order to form the file.
+You will start receiving input lines in the following format:
+{tag} {content}
+You should generate a string from every input line – like this: <{tag}>{content}</{tag}> …
+If the tag is &quot;title&quot; you should add the generated string between the <head> and </head> tags with a tabulation (<\t>) before it.
+If you receive the <title> tag MORE than ONCE, you should CHANGE its value.
+
+In any other case you should APPEND the generated string between the <body> and </body> tags with a
+tabulation ("\t") before it.
+When you receive the command &quot;exit&quot; the input ends. The content you have generated should be stored in a file
+called "index.html" (.html extension).

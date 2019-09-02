@@ -1,0 +1,10 @@
+Write a program that reads a text file and writes its every odd line in another file. Line numbers starts from 0.
+
+Input.txt 						Output.txt
+
+Two house holds, both a like in dignity,		In fair Verona, where we lay our scene,
+In fair Verona, where we lay our scene,			Where civil blood makes civil hands unclean.			From ancient grudge break to new mutiny,		A pair of star-cross''d lovers take their life;			Where civil blood makes civil hands unclean.		Do with their death bury their parent's strife.
+From forth the fatal loins of these two foes
+A pair of star-cross'd lovers take their life;
+Whose miss adventured piteous overthrows
+Do with their death bury their parent's strife.

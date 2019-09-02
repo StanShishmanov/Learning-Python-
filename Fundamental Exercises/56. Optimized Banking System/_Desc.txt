@@ -1,0 +1,18 @@
+Create a class BankAccount which has a Name (string), Bank (string) and Balance (decimal).
+You will receive several input lines, containing information in the following way:
+{bank} | {accountName} | {accountBalance}
+You need to store every given Account. When you receive the command “end” you must stop the input sequence.
+Then you must print all Accounts, ordered by their balance, in descending order, and then by length of the bank
+name, in ascending order.
+The accounts must be printed in the following way “{accountName} -> {balance} ({bank})”.
+Note: Numbers must be printed rounded to the 2 nd decimal digit.
+Examples
+
+Input 						Output
+
+DSK | Ivan | 504.403				Aleksander -> 20000.00 (DSK)
+DSK | Pesho | 2000.4031				Aleksander -> 20000.00 (Piraeus)
+DSK | Aleksander | 20000.0001			Pesho -> 2000.40 (DSK)
+Piraeus | Ivan | 504.403			Ivan -> 504.40 (DSK)
+Piraeus | Aleksander | 20000.0001		Ivan -> 504.40 (Piraeus)
+end
