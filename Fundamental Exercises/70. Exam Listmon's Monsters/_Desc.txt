@@ -1,0 +1,38 @@
+Listmon’s Monsters
+Input / Constraints
+An evil genius never works alone.  Listmon has own army. He wants to start tracking data for his army. You have been asked to create a data base for Listmon's monsters.
+A basic monster will always  have:
+•	name -  string of any asci character without space and comma 
+•	id  – integer number
+•	strength - integer point number
+•	ugliness - integer number
+In his army he accepts only two types of monsters: Hydralisks and Zerglings. Both types has the same parameters as a basic monsters but also:
+•	Hydralisk has another property – range - string of any asci character without space and comma
+•	Zergling has another property – speed – integer number
+Listmon does not get in his army basic monsters. They must be one of the two types mentioned above.
+You will start receiving input data in format:
+* Hydralisk({name}, {id}, {strength}, {ugliness}, {range})
+-if there is no fifth parameter you should print '__init__() missing 1 required positional argument: 'range''
+-if the fifth parameter is not a string you should print 'Range must be string'
+In both cases you do not add the monster in DB
+* Zergling({name}, {id}, {strength}, {ugliness}, {speed})
+-if there is no fifth parameter you should print '__init__() missing 1 required positional argument: 'speed''
+-if the fifth parameter is not a string you should print 'Speed must be integer’
+In both cases you do not add the monster in DB
+Is it possible a basic monster to try to apply in the army. If you receive a command:
+*BasicMonster({name}, {id}, { strength }, {ugliness})
+You must print ‘Can't instantiate abstract class BaseMonster with abstract methods __init__’  and you must  not add it in the DB.
+
+ - Overall speed of army: {speed}
+ - Overall strength: {strength}
+ - Hydralisk: {count}; Zergling: {count}
+Where {speed} is the sum of all Zerglings monsters speed in DB;
+{strength} is the sum of strength of all monsters;
+{count} is the number of all Hydralisks/Zerglings in the DB
+
+Input						Output
+Zergling('Pesho', 10, 10, 10, 10)		Overall speed of army: 60
+Zergling('Pesho', 10, 10, 10, 20)		Overall stength: 130
+Hydralisk('a', 100, 100, 100, 'min')		Hydralisk: 1; Zergling: 3
+Zergling('Pesho', 10, 10, 10, 30)
+stopAddingArmy

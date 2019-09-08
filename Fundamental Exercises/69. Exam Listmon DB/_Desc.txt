@@ -1,0 +1,45 @@
+Listmon’s DB
+Input / Constraints
+Listmon is as like a Google. It tracks every of its players in the game. You beat It in its own game, so It asks you now to help It with the database and make several reports for It, because it is a mess there. 
+You will start receiving players data in format:
+{playerName} -> {resultOfTheGame}, {resultOfTheGame}, {resultOfTheGame}, {resultOfTheGame} ...
+Keep in mind that it is possible to have two players with the same playerName. You should store the data separately, not replacing it.
+Every line is different data and different player.
+You must store it until you receive command 'report'. After that you will receive reporting tickets in format:
+•	score descending
+•	score ascending
+•	numberOfGames descending
+•	numberOfGames ascending
+Output
+* If you receive 'score descending' you must print all players by the order of the score descending, after that by name ascending in format
+     {name}: {score}
+* If you receive 'score ascending' you must print all players by the order of the score ascending, after that by name ascending in format
+     {name}: {score}
+* If you receive 'number of games descending' you must print all players by the number of games played descending, after that by name ascending in format
+     {name}: {count of the games}
+* If you receive 'number of games ascending’  you must print all players by the number of games played ascending after that by name ascending in format
+     {name}: {count of the games}
+
+Input					Output
+Sims -> 15, 25, 65, 85			Azzi: 7
+Misho -> 5, 5, 5			Misho: 15
+Azzi -> 0, 0, 2, 5			Sims: 35
+Sims -> 5, 5, 5, 5, 5, 5, 5		Sims: 190
+report
+score ascending
+end	
+
+Input					Output
+theBest -> 952, 26, 83, 15, 25		nick_name: 3
+ultimatePlayer -> 1998, 0, 25		ultimatePlayer: 3
+nick_name -> 25, 0, 9852648		nick_name: 3
+report					ultimatePlayer: 3
+numberOfGames descending		theBest: 5
+numberOfGames ascending
+end	theBest: 5
+
+
+
+
+
+
