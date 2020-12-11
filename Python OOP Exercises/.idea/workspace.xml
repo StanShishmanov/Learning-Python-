@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d285f5bf-4ba4-4ae8-8445-80bd024d050c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python OOP Exercises" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1konlmiA4YhhETnPI8qwFzFUvlK" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/Work/Scrapy Projects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\13. Exam Preparation\project" />
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\12. Exam Preparation\structure_and_functionality_1" />
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\12. Exam Preparation\structure_and_functionality_1\project" />
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\12. Exam Preparation\structure_and_functionality_1\player" />
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\12. Exam Preparation\structure_and_functionality_1\card" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\14. Exam" />
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\13. Exam Preparation\project" />
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\12. Exam Preparation\With Ines" />
+      <recent name="D:\Getting Better At Programming\Programming Courses\OOP Python SoftUni\Python OOP Exercises\10. Testing" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_hardware.TestHardware.test_express_software">
+    <configuration name="pytest for test_hardware.TestHardware" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python OOP Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14. Exam/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hardware.TestHardware&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_hardware.TestHardware.test_express_software" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python OOP Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14. Exam/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hardware.TestHardware.test_express_software&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_hardware.TestHardware.test_heavy_hardware" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python OOP Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14. Exam/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hardware.TestHardware.test_heavy_hardware&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_hardware.TestHardware.test_light_software" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python OOP Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14. Exam/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hardware.TestHardware.test_light_software&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_hardware.TestHardware.test_power_hardware" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python OOP Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14. Exam/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hardware.TestHardware.test_power_hardware&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_hardware.TestHardware.test_express_software" />
+        <item itemvalue="Python tests.pytest for test_hardware.TestHardware.test_light_software" />
+        <item itemvalue="Python tests.pytest for test_hardware.TestHardware.test_power_hardware" />
+        <item itemvalue="Python tests.pytest for test_hardware.TestHardware.test_heavy_hardware" />
+        <item itemvalue="Python tests.pytest for test_hardware.TestHardware" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d285f5bf-4ba4-4ae8-8445-80bd024d050c" name="Default Changelist" comment="" />
+      <created>1606375964015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606375964015</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3. Attributes and Methods/movie_world_2/project/dvd.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3. Attributes and Methods/movie_world_2/project/movie_world.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/6. Polymorphism and Magic Methods/groups_2/project/person.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/6. Polymorphism and Magic Methods/account_3/project/account.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8. Iterators and Generators/dictionary_iter_2/project/dictionary_iter.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8. Iterators and Generators/take_halves_5/project/take_halves.py</url>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8. Iterators and Generators/take_halves_5/project/take_halves.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8. Iterators and Generators/fibonacci_generator_6/project/fibonacci_generator.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/9. Decorators/even_parameters_2/project/even_parameters.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/11. Workshop/project/custom_list.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/12. Exam Preparation/structure_and_functionality_1/project/controller.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13. Second Exam Preparation/project/project/rooms/young_couple_with_children.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13. Second Exam Preparation/project/project/everland.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13. Second Exam Preparation/project/project/rooms/room.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14. Exam/project/system.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
