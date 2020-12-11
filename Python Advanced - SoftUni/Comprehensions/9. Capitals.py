@@ -1,0 +1,1 @@
+[print(f'{country} -> {city}') for (country, city) in zip(input().split(', '), input().split(', '))]
